@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "title": "Basic React Training",
+    "category": "react",
+    "description": "React.js is a powerful JavaScript library for building user interfaces. React.js is designed to make the process of building modular, reusable user interface components simple and intuitive. This basic React.js course will teach you the basic of React.js such as Components, Event Binding, State and Pros",
+    "link": "https://www.tertiarycourses.com.sg/basic-react-js-training.html",
+    "release_date": "12/21/2016",
+    "views": "21,160",
+    "image": "https://www.tertiarycourses.com.sg/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/r/e/reactjs-training.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Advnced React.js Training",
+    "category": "react",
+    "description": "React is a powerful front-end library developed by Facebook. It is used for handling the view layer for web and mobile apps. React.js is designed to make the process of building modular, reusable user interface components simple and intuitive. This advanced React.js course is a extension of the basic React.js course.",
+    "link": "https://www.tertiarycourses.com.sg/advanced-react-js-training.html",
+    "release_date": "12/24/2016",
+    "views": "78,286",
+    "image": "https://www.tertiarycourses.com.sg/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/a/d/advanced-reactjs.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Basic React Native Training",
+    "category": "native",
+    "description": "Among all other JavaScript libraries, React.js stands out. It relies on reusable components, not templates, for UI development, allowing developers to render views where data changes over time. React applications are more scalable and more maintainable, making developers more efficient and users more satisfied.",
+    "link": "https://www.tertiarycourses.com.sg/basic-react-native-training.html",
+    "release_date": "12/24/2016",
+    "views": "78,286",
+    "image": "https://www.tertiarycourses.com.sg/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/r/e/react-native.jpg"
+  }
+  
+]
