@@ -8,16 +8,14 @@ import {
   StatusBar
 } from 'react-native'
 
-class App extends React.Component {
+export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
         <StatusBar hidden={true} />
-        <Text style={styles.defaultText}>Sierra</Text>
-        <Text style={[styles.defaultText,styles.selectedText]}>
-          Tanner
-        </Text>
-        <Text style={styles.defaultText}>Travis</Text>
+        <Text style={styles.defaultText}>Apple</Text>
+        <Text style={[styles.defaultText,styles.selectedText]}>Orange</Text>
+        <Text style={styles.defaultText}>Banana</Text>
       </View>
     )
   }
@@ -46,5 +44,3 @@ const styles = StyleSheet.create({
     fontWeight: 'bold'
   }
 })
-
-export default App
