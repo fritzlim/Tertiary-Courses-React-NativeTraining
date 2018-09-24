@@ -1,11 +1,3 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow
- */
-
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
 
@@ -16,13 +8,25 @@ const instructions = Platform.select({
     'Shake or press menu button for dev menu',
 });
 
-type Props = {};
-export default class App extends Component<Props> {
+export default class App extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>Hello World, I did it!</Text>
+        <Text style={styles.welcome}>Welcome to Tertiary Courses</Text>
       </View>
+
+      // <View
+      //   style={{
+      //     flexDirection: 'row',
+      //     height: 100,
+      //     padding: 20,
+      //     }}>
+      // <   View style={{backgroundColor: 'blue', flex: 0.3}} />
+      //     <View style={{backgroundColor: 'red', flex: 0.5}} />
+      //     <Text>Welcome to Tertiary Courses</Text>
+      // </View>
+
+      
     );
   }
 }

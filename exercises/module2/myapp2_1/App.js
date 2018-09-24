@@ -8,9 +8,12 @@ class App extends Component {
   render() {
     return(
     <View>
-      <Text>Apple</Text>
-      <Text>Orange</Text>
-      <Text> Banana</Text>
+      <Text style={{fontWeight: 'bold'}}>
+          I am bold
+          <Text style={{color: 'red'}}>
+          and red
+          </Text>
+    </Text>
     </View>
     )
   }
