@@ -5,6 +5,18 @@ import {
   View
 } from 'react-native';
 
+export default class App extends Component {
+  render() {
+    return(
+    <View>
+      <Text style={styles.defaultText}>Apple</Text>
+      <Text style={[styles.defaultText,styles.selectedText]}>Orange</Text>
+      <Text style={styles.defaultText}> Banana</Text>
+    </View>
+    )
+  }
+}
+
 const styles = StyleSheet.create({
   defaultText: {
     fontSize: 22,
@@ -19,18 +31,3 @@ const styles = StyleSheet.create({
     fontWeight: 'bold'
   }
 })
-
-
-class App extends Component {
-  render() {
-    return(
-    <View>
-      <Text style={styles.defaultText}>Apple</Text>
-      <Text style={[styles.defaultText,styles.selectedText]}>Orange</Text>
-      <Text style={styles.defaultText}> Banana</Text>
-    </View>
-    )
-  }
-}
-
-export default App
