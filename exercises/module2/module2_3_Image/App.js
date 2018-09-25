@@ -1,23 +1,24 @@
 import React from 'react'
+import {Dimensions,Image,StyleSheet,View,Text} from 'react-native'
+import img1 from './assets/img1.png'
+import img2 from './assets/img2.png'
 
-import {
-  Dimensions,
-  Image,
-  StyleSheet,
-  View,
-  Text
-} from 'react-native'
-
-import picSierra from './assets/Sierra-Spencer.png'
-import picTanner from './assets/Tanner-McTab.png'
-
-class App extends React.Component {
+export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Image style={styles.pic} source={picSierra}>
+
+        //Static images
+        <Image source={require('./assets/img1.png')} />
+
+        //Network images
+        <Image source={{uri: 'https://facebook.github.io/react/logo-og.png'}}
+       style={{width: 400, height: 400}} />
+
+       //Import images
+        <Image style={styles.pic} source={img1}>
         </Image>
-        <Image style={styles.pic} source={picTanner}>
+        <Image style={styles.pic} source={img2}>
         </Image>
       </View>
     )
@@ -44,4 +45,3 @@ const styles = StyleSheet.create({
     color: 'white'
   }
 })
-export default App
