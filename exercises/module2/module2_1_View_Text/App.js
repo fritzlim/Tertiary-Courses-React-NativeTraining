@@ -5,7 +5,7 @@ export default class App extends Component {
   render() {
     return(
       <View>
-        <Text style={{color:'red'}}>Welcome to Courses</Text>
+        <Text>Welcome to Courses</Text>
       </View>
 
     // Exercise
@@ -17,5 +17,3 @@ export default class App extends Component {
     )
   }
 }
-
-export default App
