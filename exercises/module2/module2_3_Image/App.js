@@ -1,3 +1,6 @@
+// Module 2: UI Components
+// Image
+
 import React from 'react'
 import {Dimensions,Image,StyleSheet,View,Text} from 'react-native'
 import img1 from './assets/img1.png'

@@ -1,3 +1,6 @@
+// Module 2: UI Components
+// View and Text 
+
 import React, { Component } from 'react';
 import {Text,View} from 'react-native';
 

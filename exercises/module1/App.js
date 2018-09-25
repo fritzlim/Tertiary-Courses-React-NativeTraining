@@ -1,3 +1,5 @@
+// Module 1: Get Started on React native
+
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
 
