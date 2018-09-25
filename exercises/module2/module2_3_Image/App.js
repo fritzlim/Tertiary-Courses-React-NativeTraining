@@ -3,8 +3,8 @@
 
 import React from 'react'
 import {Dimensions,Image,StyleSheet,View,Text} from 'react-native'
-import img1 from './assets/img1.png'
-import img2 from './assets/img2.png'
+import cat from './assets/cat.jpg'
+import dog from './assets/dog.jpg'
 
 export default class App extends React.Component {
   render() {
@@ -12,17 +12,20 @@ export default class App extends React.Component {
       <View style={styles.container}>
 
         //Static images
-        <Image source={require('./assets/img1.png')} />
+        <Image source={dog} style={styles.pic} /> 
+        <Image source={cat} style={styles.pic} /> 
 
         //Network images
         <Image source={{uri: 'https://facebook.github.io/react/logo-og.png'}}
        style={{width: 400, height: 400}} />
 
-       //Import images
-        <Image style={styles.pic} source={img1}>
-        </Image>
-        <Image style={styles.pic} source={img2}>
-        </Image>
+       //Exercise
+        // <Image source={{url:'https://facebook.github.io/react/logo-og.png'}}
+        // style={{width:400,height:400}}
+        // />
+        // <Image source={dog} style={styles.pic} /> 
+        // <Image source={cat} style={styles.pic} /> 
+       
       </View>
     )
   }

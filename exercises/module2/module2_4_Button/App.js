@@ -1,18 +1,15 @@
 // Module 2: UI Components
 // Button
 
-import React from 'react'
-import { Button } from 'react-native'
+import React, { Component } from 'react';
+import { Button, Alert} from 'react-native'
 
-export default class App extends React.Component {
+export default class App extends Component {
   render() {
     return (
-      <Button
-        onPress={() => {
-          Alert.alert('You tapped the button!');
-        }}
-        title="Press Me"
-        />
+      <View style={styles.container}>
+        <Button onPress={()=>{Alert.alert('Hello!')}}title="Press Me"/>
+      </View>
 
     )
   }
