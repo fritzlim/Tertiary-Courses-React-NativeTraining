@@ -1,11 +1,7 @@
 import React from 'react'
+import {ScrollView,Text,} from 'react-native'
 
-import {
-  ScrollView,
-  Text,
-} from 'react-native'
-
-class App extends React.Component {
+export default class App extends React.Component {
   render() {
     return (
       <ScrollView>
@@ -18,4 +14,3 @@ class App extends React.Component {
     )
   }
 }
-export default App
