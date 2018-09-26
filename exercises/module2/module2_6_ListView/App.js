@@ -10,14 +10,14 @@ export default class App extends React.Component {
       <View style={styles.container}>
          <FlatList
            data={[
-             {key: 'Devin'},
-             {key: 'Jackson'},
-             {key: 'James'},
-             {key: 'Joel'},
-             {key: 'John'},
-             {key: 'Jillian'},
-             {key: 'Jimmy'},
-             {key: 'Julie'},
+             {key: 'Apple'},
+             {key: 'Orange'},
+             {key: 'Banana'},
+             {key: 'Kiwi'},
+             {key: 'Pipeapple'},
+             {key: 'Mango'},
+             {key: 'Durian'},
+             {key: 'Peach'},
            ]}
            renderItem={({item}) => <Text style={styles.item}>{item.key}</Text>}
          />
