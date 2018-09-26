@@ -8,7 +8,7 @@ export default class App extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Button onPress={()=>{Alert.alert('Hello!')}}title="Press Me"/>
+        <Button onPress={()=>{Alert.alert('Hello!')}} title = "Press Me" color = "red"/>
       </View>
 
     )
